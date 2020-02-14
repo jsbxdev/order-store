@@ -1,7 +1,7 @@
 <template>
   <div>
-    <order-list></order-list>
     <order-creator></order-creator>
+    <order-list></order-list>
   </div>
 </template>
 

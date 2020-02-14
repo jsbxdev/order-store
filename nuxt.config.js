@@ -97,5 +97,11 @@ export default {
         ]
       }
     }
+  },
+  server: {
+    /*
+     ** The host 0.0.0.0 enables external LAN access
+     */
+    host: '0.0.0.0'
   }
 }
