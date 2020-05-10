@@ -9,6 +9,7 @@
           {{ index }}: {{ item }}
         </p>
         <p>randomRef: {{ order.randomRef }}</p>
+        <p>objectWithRef: {{ order.objectWithRef }}</p>
       </v-card-text>
       <v-card-actions>
         <v-btn text color="success" @click="updateText(order.id)">update</v-btn>
