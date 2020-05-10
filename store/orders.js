@@ -18,6 +18,7 @@ export const actions = {
     ordersRef.add({
       orderName: Math.round(new Date().getTime() / 1000),
       randomRef: itemsRef.doc('cNIoE5S5Mn8Q8fF4aq1v'),
+      objectWithRef: { itemRef: itemsRef.doc('cNIoE5S5Mn8Q8fF4aq1v') },
       items: [
         'hello',
         itemsRef.doc('cNIoE5S5Mn8Q8fF4aq1v'),
